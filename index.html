@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <title>Shobhit Portfolio</title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1><span>s</span>H<span>o</span>B</span><span>H</span>i<span>t</span></h1>
+        <!-- <img src="images/logo.png"class="logo"> -->
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class='bx bx-window-close' onclick="closemenu()"></i>
+        </ul>
+        <i class='bx bx-menu' onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi I'm <span>Shobhit</span><br>From India</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----About Section---- -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Skm.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p> I am a front-end developer fully trained in modern designing tools and frameworks and having strong roots
+            in CSS, HTML, JavaScript, React JS and React Native.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android/iOS Apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>BSc. I.T</span><br>Abhinav Degree College<br>(University of Mumbai)<br>(2014-2017)</li>
+              <li><span>Internship</span><br>Web Design and Development<br>Dignity I.T Solution <br>(2018)</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Jr.Frontend Developer</span><br>Dignity I.T Solution <br>(2018-2020)</li>
+              <li><span>Web/App Developer </span><br>Freelancer <br>Building Wesites and Android/iOS Apps
+                <br>(2021-till)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----My Services---- -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class='bx bx-code-alt bx-tada'></i>
+          <h2>Web Development</h2>
+          <p>I have always been passionate about web development, which led me to pursue a Bachelor of Computer Science
+            degree. I am constantly seeking out new technologies and staying up-to-date on trends in the industry.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class='bx bx-laptop bx-tada'></i>
+          <h2>UI/UX Design</h2>
+          <p>As a UI/UX designer, i fulfill two different roles and are in charge of both determining how a computer
+            system product looks and how it is laid out and used. Essential duties include discussing requirements with
+            clients, planning user experiences, collaborating with other team members, updating knowledge of technology
+            trends, and listening to client feedback.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class='bx bxl-android bx-tada bx-flip-vertical'></i></i>
+          <h2>App Design</h2>
+          <p>Develop software for mobile devices, such as smartphones and tablets. My responsibilities include following
+            client specifications, designing applications, solving technical issues, writing source code, assessing
+            program effectiveness, making changes on client request, and collaborating with other internal departments.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----Portfolio section--- -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Works</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="/images/work-1.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum necessitatibus vero voluptatum,
+              quo eaque.</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/images/work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum necessitatibus vero voluptatum,
+              quo eaque.</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/images/work-3.png">
+          <div class="layer">
+            <h3>E-commerce App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum necessitatibus vero voluptatum,
+              quo eaque.</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- ----Contact Section----- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p><i class='bx bxl-gmail'></i> mishrashobhit3@gmail.com</p>
+          <p><i class='bx bxs-phone-call'></i> +91-9619370443</p>
+          <div class="social-icons">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+          </div>
+          <a href="images/ShobhitCV.docx" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email-Id" required>
+            <textarea name="Message" rows="7" placeholder="Enter Your Message Here"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 2023. Made with <i class='bx bxs-heart bx-tada'></i> by <span class="skm">Shobhit
+          Mishra</span></p>
+    </div>
+
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXkWChLB9DRSDnvlD4N3gZIAOEQRjitRvvVodm7nOpzp0gTX6Uy3-dwm0KKwkIkQaZ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Details Sent Succesfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
