@@ -350,7 +350,7 @@ nav .bx{
 
 @media only screen and (max-width: 768px){
     #header{
-        background-image: url(images/bgi.jpg);
+        background-image: url(bgi.jpg);
     }
     .header-text{
         margin-top: 100%;
