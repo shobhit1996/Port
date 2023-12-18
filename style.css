@@ -348,9 +348,12 @@ nav .bx{
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     #header{
         background-image: url(bgi.jpg);
+    }
+    nav h1{
+        font-size: 2.5rem;
     }
     .header-text{
         margin-top: 100%;
