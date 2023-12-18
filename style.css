@@ -498,4 +498,8 @@ nav .bx {
     grid-gap: 40px;
     margin-top: 50px;
   }
+  .btn.btn2 {
+    display: block;
+    /* background: #ff004f; */
+}
 }
