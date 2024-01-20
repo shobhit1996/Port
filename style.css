@@ -425,8 +425,8 @@ nav .bx {
     font-size: 1.5rem;
   }
   .header-text {
-    margin-top: 44%;
-    font-size: 1.5rem;
+    margin-top: 100%;
+    font-size: 1rem;
   }
   .header-text h1 {
     font-size: 30px;
@@ -478,7 +478,7 @@ nav .bx {
     flex-basis: 100%;
   }
   .copyright {
-    font-size: 23px;
+    font-size: 12px;
   }
   #msg {
     margin-top: -40px;
