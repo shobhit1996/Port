@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
   <link rel="stylesheet" href="style.css" />
+  
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+ 
   <title>S.K InfoTech</title>
 </head>
 
@@ -16,7 +19,7 @@
   <div id="header">
     <div class="container">
       <nav>
-        <h1><span>S.K </span> InfoTech</h1>
+        <h1><span>ShObHit </span> </h1>
         <ul id="sidemenu">
           <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -158,10 +161,10 @@
           <p><i class='bx bxl-gmail'></i> skinfo656@gmail.com</p>
           <p><i class='bx bxs-phone-call'></i> +91-9241660357</p>
           <div class="social-icons">
-            <a href="https://www.facebook.com/profile.php?id=100064920547706"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
             <a href="#"><i class='bx bxl-twitter'></i></a>
             <a href="#"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.linkedin.com/in/shobhit-mishra-ab0011113/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
           </div>
         </div>
         <div class="contact-right">
@@ -197,10 +200,6 @@
       document.getElementById(tabname).classList.add("active-tab");
     }
 
-  </script>
-
-  <script>
-
     var sidemenu = document.getElementById("sidemenu");
     function openmenu() {
       sidemenu.style.right = "0";
@@ -209,7 +208,10 @@
       sidemenu.style.right = "-200px";
     }
   </script>
+
   <script>
+    // Sumit form to google sheeet
+
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxXkWChLB9DRSDnvlD4N3gZIAOEQRjitRvvVodm7nOpzp0gTX6Uy3-dwm0KKwkIkQaZ/exec'
     const form = document.forms['submit-to-google-sheet']
 
@@ -226,5 +228,16 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  <script>
+    
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/EasePack.min.js" integrity="sha512-1lDYqF6NHlbQRM6QM+vhIxq4qsHzGjfgtKdDRZKgnpAGr+jw357GTdPP2gJrmrtrhyoJC5AZMJlXf6p5qeqSuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
